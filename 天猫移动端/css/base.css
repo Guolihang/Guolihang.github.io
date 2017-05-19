@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;  /* ȥ��ul.li.ol�е�Ĭ����ʽ */
+}
+a{
+	text-decoration: none;
+}
+boby{
+	font-family: "΢���ź�";
+
+}
+img{
+	height: 100%;
+	width: 100%;
+	border: 0;/* IE6�����ѿ�����ɫ�߿� */
+	display: block;
+}
+input:focus{
+	outline: none;
+}
+

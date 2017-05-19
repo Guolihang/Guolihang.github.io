@@ -1,0 +1,62 @@
+
+#sence{
+	width: 600px;
+	height: 600px;
+	background: url("../images/7.jpg");
+	border: 1px solid black;
+	position: absolute;
+	top: 0; left: 200px ; bottom: 0; right: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.gezi{
+	width: 29px;
+	height: 29px;
+	/*background: #f2ff56;*/
+	margin-right: 1px;
+	margin-bottom: 1px;
+	float: left;
+	overflow: hidden;
+}
+
+.she{
+	height:29px;
+	width:29px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	background: url("../images/5.png");
+	background-size: cover;
+	border-radius: 35%;
+}
+.shetou{
+	height:29px;
+	width:29px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	background: url("../images/4.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.shewei{
+	height:29px;
+	width:29px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	background: #55aa55;
+	background-size: contain;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.shiwu{
+	height:29px;
+	width:29px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	background: url("../images/6.png");
+	background-size: cover;
+	border-radius: 50%;
+	overflow: hidden;
+}

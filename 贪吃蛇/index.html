@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js"></script>
+</head>
+<body style="overflow: hidden;">
+	<style>
+
+		#over1{
+			width:600px;
+			height:600px;
+			border: 2px solid blanchedalmond;
+			background: #333;
+			position: absolute;
+			top: 0; left: 200px ; bottom: 0; right: 0;
+			margin: auto;
+			display: none;
+		}
+		#over2{
+			width:200px;
+			height:200px;
+			border: 1px solid blanchedalmond;
+			background: rgba(52, 53, 54, 0.84);
+			position: absolute;
+			top: 0; left: 200px ; bottom: 0; right: 0;
+			margin: auto;
+			display: none;
+			border-radius: 5px;
+			text-align: center;
+		}
+		input{
+			width:100px;
+			height:30px;
+			border-radius: 5px;
+			border: 2px solid blanchedalmond;
+			margin: 10px auto;
+		}
+		input:hover{
+			font-weight: bold;
+			color: blanchedalmond;
+			background: #333;
+		}
+		.ss{
+			width:200px;
+			height:100px;
+			line-height: 100px;
+			font-size: 32px;
+			font-weight: bold;
+			color: #ff277a;
+		}
+		#play{
+			width:600px;
+			height:600px;
+			position: absolute;
+			top: 0; left: 200px ; bottom: 0; right: 0;
+			margin: auto;
+			background: url("images/1.jpg") no-repeat;
+			background-size: cover;
+			text-align: center;
+			line-height: 650px;
+			font-size: 40px;
+			font-weight: bold;
+			cursor: pointer;
+			color: #fff;
+			text-decoration: none;
+		}
+		.maxbox{
+			width:1000px;
+			height:800px;
+			border: 10px solid #0a4c6e;
+			/*margin: 32px 455px;*/
+			position: absolute;
+			top: 0px;
+			left: 0 ;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+			background: #0b4b6b;
+		}
+		.btn1{
+			width:160px;
+			height:50px;
+			border: 2px solid #00a0a7;
+			background: #335ba0;
+			text-align: center;
+			line-height: 50px;
+			margin: 60px 55px;
+			font-size: 24px;
+			font-weight: bold;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+		.btn1:nth-child(1){
+			margin-top: 140px;
+		}
+		.btn1:hover{
+			background: #ccc;
+		}
+
+		.btn{
+			width:160px;
+			height:50px;
+			border: 2px solid #00a0a7;
+			background: #335ba0;
+			margin-left: 55px;
+			text-align: center;
+			line-height: 50px;
+			cursor: pointer;
+			border-radius: 10px;
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.btn:hover{
+			background: #ccc;
+		}
+	</style>
+    <div class="maxbox">
+		<div class="btn1" id="return">重新开始</div>
+		<div class="btn1" id="stop">暂停</div>
+		<div class="btn1" id="continue">继续</div>
+		<div class="btn1" id="grade">本次得分:0</div>
+		<select name="" class="btn" id="guanka" style="outline: none">
+			<option>初级</option>
+			<option>中级</option>
+			<option>高级</option>
+		</select>
+		<div id="sence"></div>
+		<div id="play">开始游戏</div>
+		<div id="over1"></div>
+		<div id="over2">
+		<div class="ss">game over</div>
+		<input type="button" value="再试一次" style="outline: none">
+		<input type="button" value="不想玩了" style="outline: none">
+	</div>
+	</div>
+</body>
+</html>

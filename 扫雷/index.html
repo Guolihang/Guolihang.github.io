@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>扫雷游戏</title>
+	<script src="js/index.js"></script>
+</head>
+<style>
+	body{
+		background: #1c1c1c;
+		margin: 0;
+		padding: 0;
+	}
+	.sence{
+		width: 0;
+		height: 0;
+		background: #1c1c1c;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	.bian{
+		border: 3px solid #1c1c1c;
+	}
+	.gezi{
+		width: 44px;
+		height: 44px;
+		margin: 1px;
+		border:2px solid #fff;
+		background: #fff;
+		border-radius: 3px;
+		float: left;
+		line-height: 48px;
+		text-align: center;
+	}
+	.gezi:hover{
+		background: #505050;
+	}
+	.lei{
+		background: url(1.png) no-repeat center center;
+		background-size: 100%;
+	}
+	.fugai{
+		width: 44px;
+		height: 44px;
+		margin: 1px;
+		background: #1c1c1c;
+		border:2px solid #fff;
+		border-radius: 3px;
+	}
+	.fugai:hover{
+		background: #505050;
+	}
+	.qizi{
+		display: block;
+		background: url(2.png) no-repeat center center;
+		background-size: 100%;
+		z-index: 555;
+	}
+	.flex{
+		width:200px;
+		height:100%;
+		background: #ccc;
+		position: fixed;
+		left: 0;
+		top:0;
+		overflow: hidden;
+		/*position: relative;*/
+	}
+	#jibie{
+		margin-top:50px;
+		margin-left: 20px;
+		background: #5c5c5c;
+		border-radius: 10px;
+		width: 150px;
+		height: 50px;
+		font-size: 16px;
+		text-align: center;
+		color: #fff;
+	}
+	#jibie:hover{
+		background: #383838;
+		border: 2px solid #ccc;
+	}
+	#jibie option{
+		width:200px;
+		height:40px;
+	}
+</style>
+<body>
+	<div class="sence"></div>
+	<div class="flex">
+		<select name="" id="jibie" style="outline: none">
+			<option style="outline: none">初级</option>
+			<option style="outline: none">中级</option>
+			<option style="outline: none">高级</option>
+		</select>
+
+
+
+	</div>
+
+</body>
+</html>
