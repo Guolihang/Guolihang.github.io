@@ -229,7 +229,7 @@ label{
 .about-left{
 	float: left;
   width: 48.2%;
-  background: url(../images/img111.png) no-repeat 0px 0px;
+  background: url(../images/myself.jpg) no-repeat 0px 0px;
   min-height: 302px;
   background-size: cover;
 }
@@ -613,7 +613,7 @@ padding:2em 0 0.5em 0;
 /*--responsive--*/
 @media (max-width: 1280px){
 .about-left {
-  background: url(../images/img111.png) no-repeat 0px -77px;
+  background: url(../images/myself-max.jpg) no-repeat 0px -77px;
   min-height: 332px;
   background-size: cover;
 }
@@ -657,7 +657,7 @@ padding:2em 0 0.5em 0;
   font-size: 1.6em;
 }
 .about-left {
-  background: url(../images/img111.png) no-repeat 0px -2px;
+  background: url(../images/myself-max.jpg) no-repeat 0px -2px;
   min-height: 364px;
   background-size: cover;
   width: 52.2%;
@@ -959,7 +959,7 @@ padding:2em 0 0.5em 0;
   margin-top: 2em;
 }
 .about-left {
-  background: url(../images/img111.png) no-repeat 0px -33px;
+  background: url(../images/myself.jpg) no-repeat 0px -33px;
   min-height: 348px;
   background-size: cover;
   width: 100%;
@@ -1141,7 +1141,7 @@ span.menu {
 }
 .about-left {
   min-height: 204px;
-  background: url(../images/img111.png) no-repeat 0px 0px;
+  background: url(../images/myself.jpg) no-repeat 0px 0px;
   background-size:cover;
 }
 .about-right h3, .service h3, .gallery h3, .blog h3, .contact h3 {
