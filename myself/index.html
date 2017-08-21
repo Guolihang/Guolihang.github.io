@@ -1,367 +1,237 @@
-<!--
-Au<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<title>个人主页</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Expire Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script src="js/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<!--scrolling-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-
- <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-<!--scrolling-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>GLH-myself</title>
+	<script src="./js/jquery.min.js"></script>
+	<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+        function hideURLbar(){
+            window.scrollTo(0,1);
+        }
+    </script>
+	<!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="./js/move-top.js"></script>
+    <script type="text/javascript" src="./js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+ 	<!---- start-smoth-scrolling---->
 </head>
-<body>	
-<!--top-header-->
-<div id="home" class="top-header">
-	 <div class="container">
-
-		 <div class="top-menu">
-			 <span class="menu"><img src="images/nav-icon.png" alt=""/></span>
-			 <ul>
-				<li><a class="scroll" href="#home">首页</a></li>
-				<li><a class="scroll" href="#about">关于我</a></li>
-				<li><a class="scroll" href="#service">个人技能</a></li>
-				<li><a class="scroll" href="#gallery">作品展示</a></li>
-				<li><a class="scroll" href="#blog">工作经历</a></li>
-				<li><a class="scroll" href="#contact">联系我</a></li>
-			 </ul>
-
-				 <script>
-							$("span.menu").click(function(){
-								$(".top-menu ul").slideToggle("slow" , function(){
-								});
-							});
-				 </script>
-
+<body>
+<!------headerbg starts--------->
+ <div id="top-top" class="headerbg">
+	 <!------header starts--------->
+	   <div class="header">
+		 <!------container starts--------->
+			  <div class="container">
+				   <div class="logo">
+						<a href="#" onfocus="this.blur();">Homepage</a>
+				   </div>
+				  <!------Navigation starts--------->
+				  <div class="nav">
+					 <ul>
+						 <li><a class="scroll" href="#about" onfocus="this.blur();">工作经历</a></li>
+						 <li><a class="scroll" href="#skills" onfocus="this.blur();">技能</a></li>
+						 <li><a class="scroll" href="#port" onfocus="this.blur();" >作品</a></li>
+						 <li><a class="scroll" href="#contact" onfocus="this.blur();">联系</a></li>
+					 </ul>
+				 </div>
+				  <!------Navigation ends-------->
+					<div class="clear"></div>
+			  </div>
+		 <!------container ends--------->
+	   </div>
+	 <!------header ends--------->
+	 <!------Banner starts--------->
+	   <div class="banner">
+	      <div class="container">
+		     <div class="banner-info">
+			      <!--<div class="bannerlogo">-->
+					  <!--<img src="./images/img111.png">-->
+			      <!--</div>-->
+			      <div class="bannerhead">
+				      <h3>郭立航</h3>
+				      <h3>前端工程师</h3>
+				      <p>对前端行业有浓厚的兴趣，学习能力好；对工作充满热情，保持积极乐观的心态；全面掌握开发技术；具有较强的团队精神和抗压能力；常在CSDN和掘金等网站关注最新技术与前端形势。</p>
+					  <a class="downarrow scroll" href="#about"  onfocus="this.blur();"><span> </span></a>
+			      </div>
+			 </div>
+			 <div class="clear"></div>
 		  </div>
-	 </div>
-</div>	
-<!--header-->
-<div class="header">
-		<div class="container">
-			 <div class="banner-info">
-				 <h2>奋斗没有终点
-					 <br>
-					 任何时候都是一个起点</h2>
-				 <p>No end of struggle
-					 <br>
-					 any time is a starting point</p>
-			 </div>
-			 <div class="clearfix"></div>
-		</div>
+	  </div>
+	  <!------Banner ends-------->
+ </div>
+ <!------Headerbg ends-------->
+
+ <!------Content starts--------->
+ <div class="content">
+	 <!------About starts--------->
+	   <div id="about" class="about">
+		   <div class="container">
+               <div class="header-section text-center">
+				  <h2><span> </span>工作经历<span> </span></h2>
+               </div>
+			  <div class="years">
+                  <h4><b>2016年3月~2017年8月</b></h4>
+                  <span><h4>杭州小码科技有限公司</h4></span>
+                  <h4><b>前端工程师</b></h4>
+                  <p>1.编写pc端和移动端以及响应式的页面</p>
+                  <p>2.根据用户需求来搭建建页面，以及对网站的维护</p>
+                  <p>3.完成页面脚本程序编写，实现页面动态，交互效果。根据需求调整、修改、优化页面。</p>
+                  <p>4.通过ajax与后台进行数据交互，解决跨域问题</p>
+                  <p>5.利用GitHub与其他开发人员进行协同开发工作。</p>
+                  <p>6.根据适配浏览器或者终端，解决兼容问题</p>
+			  </div>
+               <a class="arrow scroll" href="#skills" onfocus="this.blur();"><span> </span></a>
+           </div>
+	  </div>
+	 <!------About Ends--------->
+	 
+	<!------SKILLS Starts--------->
+	  <div id="skills" class="skills">
+          <div class="container">
+              <div class="skills-grids">
+                  <div class="skill-section text-center">
+                      <h2><span> </span>个人技能<span> </span></h2>
+                  </div>
+                  <div class="services_grids">
+                      <div id="canvas">
+                          <div class="skill-grids text-center">
+                              <div class="col-md-3">
+                                  <div class="skill-grid">
+                                      <div class="skill">熟练掌握语义化的 HTML 和具有兼容性的 CSS 模式，熟练手写符合 W3C 标准的结构和代码。对HTML5和CSS3有一定的了解，可以熟练的使用H5和CCS3完成页面布局</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="skill-grid">
+                                      <div class="skill">熟练掌握原生的javascript语法及ajax。精通响应式开发，bootstrap,自己写过响应式框架。熟练掌握 jQuery，实现日常需要的交互效果。掌握angularjs,react等热门框架。</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="skill-grid">
+                                      <div class="skill">熟悉Nodejs，MySQl，有一定 PHP 后端相关知识，自己写过phpmvc框架。了解 Ajax 工作原理和实现方法。</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="skill-grid">
+                                      <div class="skill">对前端git有一定了解。了解移动端开发,自己写过webapp。熟悉less,babel等预编译工具，可以使用webpack工程化构建工具</div>
+                                  </div>
+                              </div>
+                              <div class="clearfix"> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <a class="down scroll" href="#port"  onfocus="this.blur();"><span> </span></a>
+	  </div>
+     <!------SKILLS Ends--------->
+ </div>
+<!------Content Ends-------->
+
+<!------PORTFOLIO Starts--------->
+<div id="port" class="Portfolio">
+    <div class="Portfolio-section text-center">
+        <h2><span> </span>作品展示<span> </span></h2>
+    </div>
+    <div class="container">
+        <div class="portfolio-grids">
+            <div class="portfolio-grid col-md-4">
+                <a href="http://lmywanyueyoga.duapp.com/"><img src="./images/monitr111.png"></a>
+                <p>万悦瑜伽官网</p>
+                <p>项目技术：HTML+CSS+JS+phpcms</p>
+                <p>项目负责：完成了前台静态页面的布局与动画效果及页面优化等工作,使用phpcms后台管理系统对网站后台进行搭建与管理。</p>
+                <a class="rightarrow" href="http://lmywanyueyoga.duapp.com/"  onfocus="this.blur();"><span> </span></a>
+            </div>
+            <div class="portfolio-grid col-md-4">
+                <a href="http://www.tyshaixinzichan.com/"><img src="./images/monitr222.png"></a>
+                <p>海信资产有限责任公司</p>
+                <p>项目技术：jQuery+Bootstrap</p>
+                <p>项目负责：完成页面的静态布局,添加了动画效果,协助使用phpcms后台管理系统来进行后台的搭建。</p>
+                <a class="rightarrow" href="http://www.tyshaixinzichan.com/"  onfocus="this.blur();"><span> </span></a>
+            </div>
+            <div class="portfolio-grid col-md-4">
+                <a href="http://adba3s.duapp.com/"><img src="./images/monitr3333.png"></a>
+                <p>读吧网站</p>
+                <p>项目技术：nodejs</p>
+                <p>项目负责：负责通过nodejs搭建出一个基本的内容管理系统,利用nodejs将数据库中的数据获取出来,通过ejs模板引擎将数据与模板结合起来。</p>
+                <a class="rightarrow" href="http://adba3s.duapp.com/"  onfocus="this.blur();"><span> </span></a>
+            </div>
+            <div class="clear"> </div>
+        </div>
+        <div class="portfolio-grids">
+            <div class="portfolio-grid col-md-4">
+                <a href="https://newspc.duapp.com"  onfocus="this.blur();"><img src="./images/monitr444.png"></a>
+                <p>PC端新闻阅读</p>
+                <p>项目技术：AngularJS+知乎API</p>
+                <p>项目负责：使用AngularJS与知乎新闻的API接口，完成了这个PC端的新闻阅读工具，增强了对于AngularJS的掌握情况。</p>
+                <a class="rightarrow" href="https://newspc.duapp.com"><span> </span></a>
+            </div>
+            <div class="portfolio-grid col-md-4">
+                <a href="https://appzhihu.duapp.com"  onfocus="this.blur();"><img src="./images/monitr555.png"></a>
+                <p>新闻APP</p>
+                <p>项目技术：AngularJS+新闻API+Swiper</p>
+                <p>项目负责：使用AngularJS于Swiper插件进行移动端开发，使用API接口获取数据并进行展示。</p>
+                <a class="rightarrow" href="https://appzhihu.duapp.com" onfocus="this.blur();"><span> </span></a>
+            </div>
+            <div class="portfolio-grid col-md-4">
+                <a href="https://weilai0213.github.io/UpLine/icloud/index.html"  onfocus="this.blur();"><img src="./images/monitr666.png"></a>
+                <p>ICloud记事本</p>
+                <p>项目技术：HTML+CSS+AngularJS</p>
+                <p>项目负责：仿iPhone记事本，业余时间练习AngularJS所做的练习项目，实现增加、编辑、删除等功能。</p>
+                <a class="rightarrow" href="https://weilai0213.github.io/UpLine/icloud/index.html"  onfocus="this.blur();"><span> </span></a>
+            </div>
+            <div class="clear"> </div>
+        </div>
+        <a class="portdown scroll" href="#contact"  onfocus="this.blur();"><span> </span></a>
+    </div>
 </div>
-<!--Service-->
-<div id="service" class="service">
-	 <div class="container">
-		 <h3>个人技能</h3>
-		 <div class="service-grids">
-		 <div class="icon-grids">
-			 <div class="col-md-6 futr-grid futr1">
-				 <div class="icon-pic">
-						<div class="icon text-center">
-
-							精通
-						 </div>
-				  </div>
-				 <div class="icon-info">
-						 <h4>
-							 <p>· HTML5+CSS3布局、css预处理less</p>
-							 <p>· JavaScript、JQuery、ajax</p>
-							 <p>· Angularjs、React单页面开发</p>
-						 </h4>
-				 </div>
-				 <div class="clearfix"></div>
-			 </div>
-			 <div class="col-md-6 futr-grid">
-				  <div class="icon-pic">
-							<div class="icon text-center" >
-
-							掌握
-						 </div>
-				  </div>
-				  <div class="icon-info">
-						<h4>
-							<p>· 响应式布局开发、Bootstrap</p>
-							<p>· PHP、开发过PHPMVC框架</p>
-							<p>· phpcms内容管理系统</p>
-						</h4>
-
-				  </div>
-				  <div class="clearfix"></div>
-			 </div>
-			 <div class="clearfix"></div>
-		 </div>
-		 <div class="icon-grids grids2">
-			 <div class="col-md-6 futr-grid futr1">
-				 <div class="icon-pic">
-						<div class="icon text-center" >
-
-						熟悉
-						</div>
-				  </div>
-				 <div class="icon-info">
-					 <h4>
-						 <p>· nodejs开发</p>
-						 <p>· ES6新特性</p>
-
-					 </h4>
-				 </div>
-				 <div class="clearfix"></div>
-			 </div>
-			 <div class="col-md-6 futr-grid">
-				  <div class="icon-pic">
-							<div class="icon text-center">
-								 工具
-							</div>
-				  </div>
-				  <div class="icon-info">
-					  <h4>
-						  <p>· Webpack工程化构建工具</p>
-						  <p>· git协同开发工具</p>
-					  </h4>
-				  </div>
-				  <div class="clearfix"></div>
-			 </div>
-			 <div class="clearfix"></div>
-		 </div>
-		 </div>
-	 </div>
+<!------FOOTER Starts----------->
+<div  id="contact" class="footer">
+    <div class="container">
+        <div class="contact-section text-center">
+            <h2><span> </span>联系我<span> </span></h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-left">
+                    <div class="social-icons">
+                        <a href="#"  onfocus="this.blur();"><img src="./images/in.png"></a>
+                        <a href="#"  onfocus="this.blur();"><img src="./images/twt.png"></a>
+                        <a href="#"  onfocus="this.blur();"><img src="./images/fb.png"></a>
+                    </div>
+                    <p>Web前端开发工程师，主要职责是利用HTML/CSS/JavaScript/DOM/Flash等各种Web技术进行产品的界面开发。制作标准优化的代码，并增加交互动态功能，开发JavaScript以及Flash模块，同时结合后台开发技术模拟整体效果，进行丰富互联网的Web开发，致力于通过技术改善用户体验。</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="footer-right">
+                    <div class="form">
+                        <div class="tel">电话：153-1996-5736</div>
+                        <div class="tel">微信：glh3532210</div>
+                        <div class="tel">邮箱：guolihangg@163.com</div>
+                        <div class="tel">地址：陕西省西安市</div>
+                        <div class="tel">期望薪资：6K~8K</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <a class="up scroll" href="#top-top"  onfocus="this.blur();"><span> </span></a>
 </div>
-<!--about-->
-<div id="about" class="about" style="width: 84%;margin: 0 auto">
-	 <div class="about-left"></div>
-	 <div class="about-right">
-		<h3>关于我</h3>
-		<h4>郭立航&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;24岁&nbsp;&nbsp;&nbsp;&nbsp;西安交通大学</h4>
-		 <br>
-		<p>性格开朗，乐于助人，团队意识强，有责任心。工作中严格要求自己，保持好奇，不断的充实自己的知识储备，经常阅读前端方面的书籍，闲暇之余在csdn掘金等平台了解前端最新资讯，通过做一些相应的demo来扩展自己的知识面。保持学习的热情，从代码中发现别人发现不了的乐趣。</p>
-	 </div>
-	 <div class="clearfix"></div>
-</div>
-<!--gallery -->
-		<script src="js/jquery.chocolat.js"></script>
-		<!--light-box-files -->
-		<script type="text/javascript">
-		$(function() {
-			$('.moments-bottom a').Chocolat();
-		});
-		</script>
-<!--gallery js-->
-<div id="gallery" class="gallery">
-	 <div class="container">
-		 <h3>作品展示</h3>
-         <div class="gallery-info">
-				<div class="col-md-4 galry-grids">
-					<a  href="http://lmywanyueyoga.duapp.com/">
-						<img src="images/img1010.png" class="img-responsive" alt="">
-					</a>
-						<div class="about-yincang">
-                            <p>HTML+CSS+JS+phpcms</p>
-							<p>万悦瑜伽官网</p><span class="yulan"><a href="http://lmywanyueyoga.duapp.com/" target="_blank">预览</a></span>
-							<br>
-							<span>开发时间&nbsp;:&nbsp;2016年</span>
-							<br>
-							<span>开发详情&nbsp;:&nbsp;完成了前台静态页面的布局与动画效果及页面优化等工作,使用phpcms后台管理系统对网站后台进行搭建与管理</span>
-						</div>
-				</div>
-			 <div class="col-md-4 galry-grids">
-				 <a  href="http://www.tyshaixinzichan.com/">
-					 <img src="images/img123123.png" class="img-responsive" alt="">
-				 </a>
-				 <div class="about-yincang">
-					 <p>jQuery+Bootstrap</p>
-					 <p>海信资产有限责任公司</p><span class="yulan"><a href="http://www.tyshaixinzichan.com/" target="_blank">预览</a></span>
-					 <br>
-					 <span>开发时间&nbsp;:&nbsp;2016年</span><br>
-					 <span>开发详情&nbsp;:&nbsp;完成页面的静态布局,添加了动画效果,协助使用phpcms后台管理系统来进行后台的搭建</span>
-				 </div>
-			 </div>
-			 <div class="col-md-4 galry-grids">
-				 <a  href="https://guangzhoujianzhu.duapp.com">
-					 <img src="images/img323232.png" class="img-responsive" alt="">
-				 </a>
-				 <div class="about-yincang">
-					 <p>Javascript+phpcms</p>
-					 <p>广州建筑有限责任公司</p><span class="yulan"><a href="https://guangzhoujianzhu.duapp.com" target="_blank">预览</a></span>
-					 <br>
-					 <span>开发时间&nbsp;:&nbsp;2017年</span><br>
-					 <span>开发详情&nbsp;:&nbsp;团队合作开发，使用git协同开发工具较短时间内完成了网站的静态页面、后台数据库的搭建及网站的相关测试</span>
-				 </div>
-			 </div>
-			 <div class="col-md-4 galry-grids">
-				 <a  href="https://newspc.duapp.com">
-					 <img src="images/img2222222.png" class="img-responsive" alt="">
-				 </a>
-				 <div class="about-yincang">
-					 <p>AngularJS+知乎API</p>
-					 <p>PC端新闻阅读</p><span class="yulan"><a href="https://newspc.duapp.com" target="_blank">预览</a></span>
-					 <br>
-					 <span>开发时间&nbsp;:&nbsp;2017年</span><br>
-					 <span>开发详情&nbsp;:&nbsp;使用AngularJS与知乎新闻的API接口，完成了这个PC端的新闻阅读工具，增强了对于AngularJS的掌握情况</span>
-				 </div>
-			 </div>
-			 <div class="col-md-4 galry-grids">
-				 <a  href="https://appzhihu.duapp.com">
-					 <img src="images/img3333.png" class="img-responsive" alt="">
-				 </a>
-				 <div class="about-yincang">
-					 <p>AngularJS+新闻API+Swiper</p>
-					 <p>新闻APP</p><span class="yulan"><a href="https://appzhihu.duapp.com" target="_blank">预览</a></span>
-					 <br>
-					 <span>开发时间&nbsp;:&nbsp;2017年</span><br>
-					 <span>开发详情&nbsp;:&nbsp;使用AngularJS于Swiper插件进行移动端开发，使用API接口获取数据并进行展示</span>
-				 </div>
-			 </div>
-			 <div class="col-md-4 galry-grids">
-				 <a  href="https://weilai0213.github.io/UpLine/icloud/index.html">
-					 <img src="images/Icloud.png" class="img-responsive" alt="">
-				 </a>
-				 <div class="about-yincang">
-					 <p>HTML+CSS+AngularJS</p>
-					 <p>ICloud记事本</p><span class="yulan"><a href="https://weilai0213.github.io/UpLine/icloud/index.html" target="_blank">预览</a></span>
-					 <br>
-					 <span>开发时间&nbsp;:&nbsp;2017年</span><br>
-					 <span>开发详情&nbsp;:&nbsp;仿iPhone记事本，业余时间练习AngularJS所做的练习项目，实现增加、编辑、删除等功能</span>
-				 </div>
-			 </div>
-
-			 <div class="col-md-4 galry-grids">
-				 <a  href="https://weilai0213.github.io/UpLine/WEBweather/index.html">
-					 <img src="images/img30.jpg" class="img-responsive" alt="">
-				 </a>
-				 <div class="about-yincang">
-					 <p>React组件化开发</p>
-					 <p>WEB天气预报</p><span class="yulan"><a href="https://weilai0213.github.io/UpLine/WEBweather/index.html" target="_blank">预览</a></span>
-					 <br>
-					 <span>开发时间&nbsp;:&nbsp;2017年</span><br>
-					 <span>开发详情&nbsp;:&nbsp;使用React库进行组件化开发，将实时天气数据进行展示</span>
-				 </div>
-			 </div>
-
-				<div class="clearfix"> </div>
-			</div>
-	 </div>
-</div>
-<!---->
-<div id="blog" class="blog">
-	 <div class="container">
-		 <h3>工作经历</h3>
-		 <div class="blog-grids">
-			 <div class="clearfix"></div>
-			 <div class="middleblog-grid blog-grid">
-				 <a href="#"><img src="images/b3.jpg" class="img-responsive" alt=""/> </a> 
-				 <h4 style="text-align:center;"><a href="#">杭州小码教育科技有限公司</a></h4>
-				 <br>
-					<span style="text-align:center;">2016年1月~2017年7月&nbsp;&nbsp;&nbsp;&nbsp;前端工程师</span>
-
-				 <p style="margin:0 auto;text-align: center">
-					 1. 负责PC端与移动端产品、项目开发<br>
-					 2. 协同UI实现页面静态布局以及交互效果<br>
-					 3. 辅助后台搭建模板，并完成数据交互<br>
-					 4. 分析及优化网站性能，提升用户使用体验
-				 </p>
-
-			 </div>
-		 </div>
-	 </div>
-</div>
-
-<div id="contact" class="contact">
-	 <div class="container">
-		 <h3>联系我</h3>
-		 <div class="touch-top">
-			 <div class="col-md-6 touch-left">
-					 <div class="touch-right-top">
-
-						 <p style="font-size: 20px;color: #181818">github</p>
-						 <h4 style="font-size: 16px;">Guolihang</h4>
-					 </div>
-					 <div class="touch-right-top">
-
-						 <p style="font-size: 20px;color: #181818">邮箱</p>
-						 <p  style="font-size: 16px;">guolihangg@163.com</p>
-					 </div>
-					 <div class="touch-right-top">
-
-						 <p style="font-size: 20px;color: #181818">电话</p>
-						 <p  style="font-size: 16px;">153-1996-5736</p>
-					 </div>
-			 </div>
-			 <div class="col-md-6 touch-right">
-					<div class="touch-right-top">
-
-						<p style="font-size: 20px;color: #181818">QQ</p>
-							<h4  style="font-size: 16px;">353221092</h4>
-					</div>
-					<div class="touch-right-top">
-						<p style="font-size: 20px;color: #181818">微信</p>
-							<p  style="font-size: 16px;">glh3532210</p>
-					</div>
-					<div class="touch-right-top">
-						<p style="font-size: 20px;color: #181818">现居地</p>
-							<p  style="font-size: 16px;">西安市雁塔区</p>
-					</div>
-			 </div>
-				<div class="clearfix"></div>
-		  </div>
-	 </div>
-</div>
-<div class="footer">
-	 <div class="container">
-		 <p>感谢您的浏览，期待您的回复</p>
-
-		 <div class="arrow">
-			 <a class="scroll" href="#home"><img src="images/top.png" alt=""></a>
-		 </div>
-	 </div>
-</div>
-<!---->
-<script type="text/javascript">
-		$(document).ready(function() {
-
-		$().UItoTop({ easingType: 'easeOutQuart' });
-});
-</script>
-<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!---->
-<script>
-	var kk=document.querySelectorAll('.galry-grids');
-	var yc=document.querySelectorAll('.about-yincang');
-	console.log(kk);
-	console.log(yc);
-	kk.forEach(function (a,i) {
-		a.onmouseover = function () {
-			yc[i].style.transform = `translateY(-11.5em)`
-		}
-		a.onmouseout = function () {
-			yc[i].style.transform = `translateY(0em)`;
-		}
-	})
-</script>
-
 </body>
-</html>		
-	
+</html>
+ 
+   
