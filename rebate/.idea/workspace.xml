@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Task-Center.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task-Center.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/Task-Center.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -34,18 +34,18 @@
       <file leaf-file-name="Task-Center.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/Task-Center.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
+            <state relative-caret-position="700">
               <caret line="532" column="0" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task-Center.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Task-Center.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/less/Task-Center.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
+            <state relative-caret-position="291">
+              <caret line="432" column="41" selection-start-line="432" selection-start-column="41" selection-end-line="432" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -57,8 +57,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/css/Task-Center.css" />
-        <option value="$PROJECT_DIR$/public/less/Task-Center.less" />
         <option value="$PROJECT_DIR$/modules/Task-Center.html" />
+        <option value="$PROJECT_DIR$/public/less/Task-Center.less" />
       </list>
     </option>
   </component>
@@ -264,12 +264,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507907776402</updated>
-      <workItem from="1507907777912" duration="3174000" />
+      <workItem from="1507907777912" duration="3350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3174000" />
+    <option name="totallyTimeSpent" value="3350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="10" width="1924" height="1048" extended-state="1" />
@@ -319,9 +319,17 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Task-Center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/Task-Center.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
+        <state relative-caret-position="700">
           <caret line="532" column="0" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
           <folding />
         </state>
@@ -329,16 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/less/Task-Center.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/Task-Center.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="291">
+          <caret line="432" column="41" selection-start-line="432" selection-start-column="41" selection-end-line="432" selection-end-column="41" />
           <folding />
         </state>
       </provider>
