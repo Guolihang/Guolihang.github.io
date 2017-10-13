@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task-Center</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="../public/css/Task-Center.css"/>
+	<script src="../public/js/rem.js"></script>
+	<script src="../public/js/Task-Center.js"></script>
+</head>
+<body>
+	<!-- 公共头部分 -->
+	<header id="header" class="Task_Header">
+		<!-- <img src="../public/images/header.png" alt=""> -->
+		<h5>任务中心</h5>							
+	</header>
+	<!-- 文字轮播通知消息 -->
+	<section class="informs_box">
+		<ul class="informs">
+			<li class="inform">
+           		<img src="../public/images/icon_01.png">
+				<p>您的【任务一】完成，解锁4号奖金池，还有￥3000奖金可领。</p>
+			</li>
+		</ul>
+	</section>
+	<!-- 任务收益相关信息 -->
+	<section class="task_earnings">
+		<div class="task_earning">
+			<h5 class="earning_num">4583.00</h5>	
+			<p>任务总收益(元)</p>
+		    <a href="#" class="button_statement">报表</a>
+			<a href="#" class="blocking_box">
+				<span>暂冻结</span><span class="blocking">548.00</span><span class="button_icon_02"></span>
+			</a>
+            <a href="#" class="deposit_box">
+				<span>可提现</span><span class="deposit">548.00</span><span class="button_icon"></span> 
+			</a>			
+		</div>
+	</section>
+	<!-- 贡献分 -->
+	<section class="contribute_box">
+		<span class="contribute_points">贡献分</span>
+		<div class=" current_position">当前2008</div>
+		<div class="progress_bottom">
+			<ul>
+				<li class="zero_circle circle"></li>
+				<li class="first_circle circle">1</li>
+				<li class="two_circle circle">2</li>
+				<li class="three_circle circle">3</li>
+				<li class="four_circle circle">4</li>
+				<li class="five_circle circle">5</li>
+				<li class="six_circle circle">6</li>
+				<li class="seven_circle circle">7</li>
+			</ul>
+		</div>	
+		<div class="progress_top">
+			<ul>
+				<li class="zero_circles"></li>
+				<li class="first_circles circles"></li>
+				<li class="two_circles circles"></li>
+				<li class="three_circles circles" style="opacity: 0"></li>
+				<li class="four_circle circles" style="opacity: 0"></li>
+				<li class="five_circle circles" style="opacity: 0"></li>
+				<li class="six_circle circles" style="opacity: 0"></li>
+				<li class="seven_circle circles" style="opacity: 0"></li>				
+			</ul>
+		</div>			
+	</section>
+	<!-- 奖金池 -->
+    <section class="bonus_pool_box">
+    	<div class="bonus_pool">
+			<p>2000<span>人已参与</span></p>
+    		<a href="#" class="bonus_pool_rule">奖金池规则</a>    		
+    	</div>
+    </section>
+	<!-- 任务状态 -->
+	<nav class="test_states">
+		<ul>
+			<li>
+				<p>进行中</p>
+				<div class="line_active active"></div>
+			</li>
+			<li>
+				<p>已结束</p>
+				<!-- <div class="line_active"></div> -->
+			</li>
+		</ul>
+	</nav>
+	<!-- 任务状态列表 -->
+	<section class="test_lists_box">
+		<ul class="test_lists">
+			<li class="lists_01 list">
+				<ul class="list_top">
+					<li class="list_tops">
+					 	<img src="../public/images/logo_06.png" alt="">
+					 	<div class="list_top_content">
+					 		<p class="test_two">任务名二</p>
+					 		<span>2017年11月</span>
+					 		<div class="finish_progress">
+					 			<div>进度</div>
+					 			<span class="accomplish_num"><b>0</b>/1</span>
+					 		</div>
+					 		<p class="test_money">1839.00<i></i> </p>
+					 		<p class="test_moneys">疯涨中的奖池金额</p>
+					 		<a href="#">开始</a>
+					 	</div>	
+					</li>
+					<li class="list_bottoms"><a href="#">查看任务详情</a></li>
+				</ul>
+			</li>
+			<li class="lists_01 list">
+				<ul class="list_top">
+					<li class="list_tops">
+					 	<img src="../public/images/logo_06.png" alt="">
+					 	<div class="list_top_content">
+					 		<p class="test_two">任务名二</p>
+					 		<span>2017年11月</span>
+					 		<div class="finish_progress">
+					 			<div id="in_progress">正在进行</div>
+					 		</div>
+					 		<div id="count_downs">
+					 			距结束
+					 		</div>
+					 		<ul id="count_down">					 			
+					 			<li>00</li>
+					 			<li>：</li>
+					 			<li>00</li>
+					 			<li>：</li>
+					 			<li>00</li>
+					 		</ul>
+					 		<p class="test_money">1839.00<i></i> </p>
+					 		<p class="test_moneys">疯涨中的奖池金额</p>
+					 		<!-- <a href="#">开始</a> -->
+					 	</div>	
+					</li>
+					<li class="list_bottoms"><a href="#">查看任务详情</a></li>
+				</ul>				
+			</li>
+		</ul>	
+	</section>
+
+</body>
+</html>
