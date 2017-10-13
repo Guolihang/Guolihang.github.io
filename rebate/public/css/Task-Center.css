@@ -421,8 +421,9 @@ body {
 }
 .test_lists_box .test_lists .list .list_top .list_tops .list_top_content .finish_progress div {
   font-size: 0.24rem;
-  margin-top: 0.04rem;
+  margin-top: 0.07rem;
   margin-right: 0.8rem;
+  font-family: ﻿font_family02;
   font-size: 0.3rem;
   float: left;
   color: #999999;
