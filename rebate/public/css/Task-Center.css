@@ -190,7 +190,7 @@ body {
   width: 1.3rem;
   height: 0.45rem;
   background: url(../images/icon_04.png) no-repeat center center;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   left: 2.74rem;
   top: 0.3rem;
@@ -505,8 +505,9 @@ body {
   width: 0.28rem;
   height: 0.28rem;
   float: left;
-  font-size: 0.18rem;
+  font-size: 0.20rem;
   color: #333333;
+
 }
 #count_down li:nth-child(1),
 #count_down li:nth-child(3),
