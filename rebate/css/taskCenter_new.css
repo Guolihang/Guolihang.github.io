@@ -1,0 +1,536 @@
+@charset "utf-8";
+/* 公共头开始  */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  height: 1.25rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+header h5 {
+  font-family: ﻿font_family01;
+  font-size: 0.32rem;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 0.62rem;
+  text-align: center;
+}
+body {
+  background-color: #f6f8fc;
+}
+/*公共头结束*/
+/* 文字轮播通知消息 */
+.informs_box {
+  width: 100%;
+  height: 2.25rem;
+  background-color: #f8edc7;
+}
+.informs_box .informs {
+  width: 100%;
+  height: 100%;
+}
+.informs_box .informs .inform {
+  width: 100%;
+  height: 100%;
+}
+.informs_box .informs .inform img {
+  width: 1.19rem;
+  height: 1.0rem;
+  float: left;
+  display: inline-block;
+  margin: 0.66rem 0 0 0.75rem;
+}
+.informs_box .informs .inform p {
+  font-family: ﻿font_family02;
+  font-size: 0.75rem;
+  line-height: 2.25rem;
+  letter-spacing: 0;
+  display: inline-block;
+  color: #857ffd;
+  float: right;
+}
+/*  任务收益相关信息  */
+.task_earnings {
+  width: 100%;
+  height: 9.38rem;
+  background-image: linear-gradient(0deg, #c1d7ff 0%, #82adfa 100%);
+}
+.task_earnings .task_earning {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #ffffff;
+}
+.task_earnings .task_earning .earning_num {
+  width: 7.12rem;
+  height: 1.44rem;
+  font-family: ﻿font_family03;
+  font-size: 1.88rem;
+  letter-spacing: 0;
+  position: absolute;
+  left: 0.75rem;
+  top: 1.94rem;
+}
+.task_earnings .task_earning p {
+  height: 1.0rem;
+  font-family: ﻿font_family02;
+  font-size: 0.94rem;
+  letter-spacing: 0;
+  position: absolute;
+  left: 0.78rem;
+  top: 4.0rem;
+}
+.task_earnings .task_earning .button_statement {
+  width: 3.75rem;
+  height: 1.81rem;
+  border-radius: 0.88rem 0.88rem 0.88rem 0.88rem;
+  border: solid 0.06rem #ffffff;
+  position: absolute;
+  left: 18.75rem;
+  top: 3.0rem;
+  font-size: 1.12rem;
+  font-family: ﻿font_family02;
+  line-height: 1.81rem;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+}
+.task_earnings .task_earning .button_statement:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #95b9fb;
+}
+.task_earnings .task_earning .blocking_box,
+.task_earnings .task_earning .deposit_box {
+  width: 10.81rem;
+  height: 2.75rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.31rem 0.31rem 0px 0px;
+  display: block;
+  padding-left: 0.78rem;
+  box-sizing: border-box;
+}
+.task_earnings .task_earning .blocking_box span:nth-child(1),
+.task_earnings .task_earning .deposit_box span:nth-child(1) {
+  height: 100%;
+  display: block;
+  float: left;
+  line-height: 2.75rem;
+  font-size: 0.88rem;
+  font-family: ﻿font_family02;
+  color: #333333;
+}
+.task_earnings .task_earning .blocking_box span:nth-child(2),
+.task_earnings .task_earning .deposit_box span:nth-child(2) {
+  height: 100%;
+  display: block;
+  float: left;
+  line-height: 2.75rem;
+  margin-left: 0.78rem;
+  font-size: 1.12rem;
+  font-family: ﻿font_family02;
+  color: #9b96fd;
+}
+.task_earnings .task_earning .blocking_box span:nth-child(3),
+.task_earnings .task_earning .deposit_box span:nth-child(3) {
+  width: 0.5rem;
+  height: 0.81rem;
+  display: block;
+  float: right;
+  margin-top: 0.97rem;
+  margin-right: 0.75rem;
+  background: url(../images/icon_02.png) no-repeat center center;
+  background-size: cover;
+}
+.task_earnings .task_earning .blocking_box:hover,
+.task_earnings .task_earning .deposit_box:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.task_earnings .task_earning .blocking_box {
+  position: absolute;
+  left: 0.75rem;
+  top: 6.62rem;
+}
+.task_earnings .task_earning .deposit_box {
+  position: absolute;
+  left: 12rem;
+  top: 6.62rem;
+}
+/*  贡献分  */
+.contribute_box {
+  width: 100%;
+  height: 1.76rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.contribute_box .contribute_points {
+  display: block;
+  font-family: ﻿﻿font_family02;
+  font-size: 0.30rem;
+  line-height: 1.76rem;
+  margin-left: 0.25rem;
+  letter-spacing: 0px;
+  color: #333333;
+}
+.contribute_box .current_position {
+  width: 1.3rem;
+  height: 0.45rem;
+  background: url(../images/icon_04.png) no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  left: 2.6rem;
+  top: 0.3rem;
+  text-align: center;
+  line-height: 0.32rem;
+  font-family: ﻿font_family02;
+  font-size: 0.24rem;
+  color: #ffffff;
+}
+.contribute_box .progress_bottom,
+.contribute_box .progress_top {
+  height: 0.07rem;
+  border-radius: 3px 3px 3px 3px;
+  position: absolute;
+  left: 1.41rem;
+  top: 0.86rem;
+}
+.contribute_box .progress_bottom {
+  width: 5.2rem;
+  background-color: #e3e4ea;
+}
+.contribute_box .progress_bottom ul {
+  width: 5rem;
+  height: 0.3rem;
+  position: absolute;
+  left: 0.36rem;
+  top: -0.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contribute_box .progress_bottom ul .circle {
+  width: 0.28rem;
+  height: 0.28rem;
+  border-radius: 50%;
+  background-color: #e3e4ea;
+  font-size: 0.26rem;
+  text-align: center;
+  line-height: 0.28rem;
+}
+.contribute_box .progress_bottom ul .zero_circle {
+  width: 0.15rem;
+  height: 0.16rem;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.36rem;
+  top: 0.03rem;
+  background-color: #e3e4ea;
+}
+.contribute_box .progress_top {
+  width: 1.48rem;
+  background-color: #fe3824;
+}
+.contribute_box .progress_top ul {
+  width: 5rem;
+  height: 0.3rem;
+  position: absolute;
+  left: 0.36rem;
+  top: -0.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contribute_box .progress_top ul .circles {
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url(../images/icon_03.png) no-repeat center center;
+  background-size: cover;
+}
+.contribute_box .progress_top ul .zero_circles {
+  width: 0.15rem;
+  height: 0.16rem;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.36rem;
+  top: 0.05rem;
+  background-color: #fe3824;
+}
+.contribute_box .contribute_num {
+  width: 5.45rem;
+  height: 0.25rem;
+  position: absolute;
+  left: 1.6rem;
+  top: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contribute_box .contribute_num li {
+  font-family: ﻿font_family02;
+  font-size: 0.24rem;
+  color: #999999;
+}
+/*  奖金池人数展示  */
+.bonus_pool_box {
+  width: 100%;
+  height: 3.24rem;
+  margin-top: 0.24rem;
+}
+.bonus_pool_box .bonus_pool {
+  width: 100%;
+  height: 100%;
+  background: url(../images/back_05.png) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+.bonus_pool_box .bonus_pool p {
+  width: 1.7rem;
+  height: 0.27rem;
+  margin-top: 0.3rem;
+  margin-left: 2.94rem;
+  font-size: 0.36rem;
+  color: #ff3939;
+  font-family: 'SourceHanSansCN-Medium;';
+}
+.bonus_pool_box .bonus_pool p span {
+  font-size: 0.18rem;
+  font-family: ﻿font_family02;
+  color: #77b6ff;
+}
+.bonus_pool_box .bonus_pool .bonus_pool_rule {
+  width: 1.5rem;
+  height: 0.48rem;
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(66, 79, 254, 0.3);
+  border-radius: 24px 0 0 24px;
+  float: right;
+  font-family: ﻿font_family02;
+  font-size: 0.24rem;
+  color: #3e8afc;
+  text-align: center;
+  line-height: 0.48rem;
+}
+/* 任务状态  */
+.test_states {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+}
+.test_states ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.test_states ul li {
+  width: 100%;
+  height: 100%;
+}
+.test_states ul li p {
+  text-align: center;
+  line-height: 0.88rem;
+  font-family: ﻿font_family02;
+  font-size: 0.3rem;
+}
+.test_states ul li .line_active {
+  width: 1.4rem;
+  height: 0.06rem;
+  margin-left: 1.15rem;
+  margin-bottom: 0;
+  background: #9b96fd;
+}
+.test_states ul li:nth-child(1) {
+  color: #9b96fd;
+}
+.test_states ul li:nth-child(2) {
+  color: #999999;
+}
+/*  任务状态列表  */
+.test_lists_box {
+  width: 100%;
+  height: 7rem;
+}
+.test_lists_box .test_lists {
+  width: 100%;
+  height: 100%;
+}
+.test_lists_box .test_lists .list {
+  width: 7.02rem;
+  height: 3.12rem;
+  margin-top: 0.24rem;
+  margin-left: 0.24rem;
+  background-color: #ffffff;
+  box-shadow: -1.6px 1.2px 4px 0px rgba(12, 3, 6, 0.1);
+  border-radius: 10px 10px 10px 10px;
+}
+.test_lists_box .test_lists .list .list_top {
+  width: 100%;
+  height: 2.24rem;
+  border-bottom: 0.01rem solid #e5e5e5;
+}
+.test_lists_box .test_lists .list .list_top .list_tops {
+  width: 100%;
+  height: 100%;
+}
+.test_lists_box .test_lists .list .list_top .list_tops img {
+  width: 1.62rem;
+  height: 2.24rem;
+  display: block;
+  float: left;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content {
+  width: 5.4rem;
+  height: 2.24rem;
+  float: right;
+  position: relative;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_two {
+  position: absolute;
+  left: 0.25rem;
+  top: 0.3rem;
+  font-family: ﻿﻿font_family03;
+  font-size: 0.34rem;
+  color: #333333;
+  font-weight: bold;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content span {
+  display: block;
+  position: absolute;
+  left: 0.25rem;
+  top: 0.80rem;
+  font-family: ﻿font_family02;
+  font-size: 0.24rem;
+  color: #999999;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .finish_progress {
+  position: absolute;
+  top: 0.15rem;
+  right: 0.1rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .finish_progress div {
+  font-size: 0.24rem;
+  margin-top: 0.08rem;
+  margin-right: 0.8rem;
+  font-family: ﻿font_family02;
+  font-size: 0.3rem;
+  float: left;
+  color: #999999;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .finish_progress .accomplish_num {
+  display: block;
+  position: absolute;
+  left: 0.7rem;
+  top: 0.07rem;
+  float: right;
+  color: #333333;
+  font-size: 0.3rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .finish_progress .accomplish_num b {
+  color: #000;
+  font-size: 0.35rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_money {
+  width: 1.23rem;
+  height: 0.26rem;
+  font-size: 0.34rem;
+  color: #fe3824;
+  position: absolute;
+  left: 0.25rem;
+  top: 1.40rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_money i {
+  width: 0.15rem;
+  height: 0.24rem;
+  display: block;
+  position: absolute;
+  left: 1.55rem;
+  top: 0.1rem;
+  background: url(../images/icon_07.png) no-repeat center center;
+  background-size: cover;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_moneys {
+  width: 2.5rem;
+  height: 0.24rem;
+  font-size: 0.24rem;
+  font-weight: 500;
+  color: #666666;
+  position: absolute;
+  left: 0.25rem;
+  top: 1.75rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content a {
+  width: 1.24rem;
+  height: 0.52rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.41rem;
+  display: block;
+  text-align: center;
+  line-height: 0.52rem;
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 1px #9b96fd;
+  font-family: ﻿﻿font_family02;
+  font-size: 0.34rem;
+  color: #9b96fd;
+}
+.test_lists_box .test_lists .list .list_bottoms {
+  width: 100%;
+  height: 0.87rem;
+}
+.test_lists_box .test_lists .list .list_bottoms a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 0.87rem;
+  font-size: 0.3rem;
+  color: #666666;
+}
+/* 任务倒计时 */
+#in_progress {
+  margin-right: 0.4rem;
+  font-size: 0.32rem;
+  color: #fe3824;
+}
+#count_downs {
+  position: absolute;
+  right: 2rem;
+  top: 0.7rem;
+  font-size: 0.20rem;
+  color: #333333;
+}
+#count_down {
+  width: 1.8rem;
+  height: 0.4rem;
+  position: absolute;
+  right: 0rem;
+  top: 0.7rem;
+}
+#count_down li {
+  width: 0.28rem;
+  height: 0.28rem;
+  float: left;
+  font-size: 0.20rem;
+  color: #333333;
+  text-align: center;
+  line-height: 0.28rem;
+}
+#count_down li:nth-child(1),
+#count_down li:nth-child(3),
+#count_down li:nth-child(5) {
+  background-color: #edeff3;
+  border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
