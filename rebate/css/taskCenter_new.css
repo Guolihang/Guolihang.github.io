@@ -85,7 +85,7 @@ body {
   font-size: 2.566296rem;
   letter-spacing: 0px;
   position: absolute;
-  left: 1.026518rem;
+  left: 1.4rem;
   top: 2.651839rem;
 }
 .task_earnings .task_earning p {
@@ -94,7 +94,7 @@ body {
   font-size: 1.283148rem;
   letter-spacing: 0px;
   position: absolute;
-  left: 1.06929rem;
+  left: 1.4rem;
   top: 5.474765rem;
 }
 .task_earnings .task_earning .button_statement {
@@ -103,7 +103,7 @@ body {
   border-radius: 1.197605rem 1.197605rem 1.197605rem 1.197605rem;
   border: solid 0.085543rem #ffffff;
   position: absolute;
-  left: 25.66296rem;
+  right: 2rem;
   top: 4.106074rem;
   font-size: 1.539778rem;
   font-family: ﻿font_family02;
@@ -116,18 +116,27 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   color: #95b9fb;
 }
-.task_earnings .task_earning .blocking_box,
-.task_earnings .task_earning .deposit_box {
+.task_earnings .task_earning .income_classify {
+  width: 100%;
+  height: 3.763901rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.task_earnings .task_earning .income_classify .blocking_box,
+.task_earnings .task_earning .income_classify .deposit_box {
   width: 14.798973rem;
   height: 3.763901rem;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 0.427716rem 0.427716rem 0px 0px;
   display: block;
-  padding-left: 1.06929rem;
+  padding-left: 1.026518rem;
   box-sizing: border-box;
 }
-.task_earnings .task_earning .blocking_box span:nth-child(1),
-.task_earnings .task_earning .deposit_box span:nth-child(1) {
+.task_earnings .task_earning .income_classify .blocking_box span:nth-child(1),
+.task_earnings .task_earning .income_classify .deposit_box span:nth-child(1) {
   height: 100%;
   display: block;
   float: left;
@@ -136,8 +145,8 @@ body {
   font-family: ﻿font_family02;
   color: #333333;
 }
-.task_earnings .task_earning .blocking_box span:nth-child(2),
-.task_earnings .task_earning .deposit_box span:nth-child(2) {
+.task_earnings .task_earning .income_classify .blocking_box span:nth-child(2),
+.task_earnings .task_earning .income_classify .deposit_box span:nth-child(2) {
   height: 100%;
   display: block;
   float: left;
@@ -147,8 +156,8 @@ body {
   font-family: ﻿font_family02;
   color: #9b96fd;
 }
-.task_earnings .task_earning .blocking_box span:nth-child(3),
-.task_earnings .task_earning .deposit_box span:nth-child(3) {
+.task_earnings .task_earning .income_classify .blocking_box span:nth-child(3),
+.task_earnings .task_earning .income_classify .deposit_box span:nth-child(3) {
   width: 0.684346rem;
   height: 1.112062rem;
   display: block;
@@ -158,19 +167,9 @@ body {
   background: url(../images/icon_02.png) no-repeat center center;
   background-size: cover;
 }
-.task_earnings .task_earning .blocking_box:hover,
-.task_earnings .task_earning .deposit_box:hover {
+.task_earnings .task_earning .income_classify .blocking_box:hover,
+.task_earnings .task_earning .income_classify .deposit_box:hover {
   background-color: rgba(255, 255, 255, 0.8);
-}
-.task_earnings .task_earning .blocking_box {
-  position: absolute;
-  left: 1.026518rem;
-  top: 9.067579rem;
-}
-.task_earnings .task_earning .deposit_box {
-  position: absolute;
-  left: 16.253208rem;
-  top: 9.067579rem;
 }
 /*  贡献分  */
 .contribute_box {
