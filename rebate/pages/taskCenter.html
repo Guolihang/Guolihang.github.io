@@ -3,11 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>任务中心</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0, user-scalable=0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="../css/mui.min.css">
 	<link rel="stylesheet" href="../css/taskCenter_new.css"/>
 	<script src="../js/zepto.min.js"></script>
 	<script src="../js/rem_new.js"></script>
-	<script src="../js/Task-Center.js"></script>
 </head>
 <body>
 	<!-- 公共头部分 -->
@@ -19,7 +21,7 @@
 	<section class="informs_box">
 		<ul class="informs">
 			<li class="inform">
-           		<img src="../images/icon_01.png">
+           		<img src="../images/g-icon_01.png">
 				<p>您的【任务一】完成，解锁4号奖金池，还有￥3000奖金可领。</p>
 			</li>
 		</ul>
@@ -87,16 +89,14 @@
     </section>
 	<!-- 任务状态 -->
 	<nav class="test_states">
-		<ul>
-			<li>
+			<div class=" test_states_cont">
 				<p>进行中</p>
-				<div class="line_active active"></div>
-			</li>
-			<li>
+				<div class="line_active_g line_left_g" style="opacity: 1"></div>
+			</div>
+			<div class="test_states_end">
 				<p>已结束</p>
-				<!-- <div class="line_active"></div> -->
-			</li>
-		</ul>
+				<div class="line_active_g line_right_g" style="opacity: 0"></div>
+			</div>		
 	</nav>
 	<!-- 任务状态列表 -->
 	<section class="test_lists_box">
@@ -104,7 +104,7 @@
 			<li class="lists_01 list">
 				<ul class="list_top">
 					<li class="list_tops">
-					 	<img src="../images/logo_06.png" alt="">
+					 	<img src="../images/g-logo_06.png" alt="">
 					 	<div class="list_top_content">
 					 		<p class="test_two">任务名二</p>
 					 		<span>2017年11月</span>
@@ -123,7 +123,7 @@
 			<li class="lists_01 list">
 				<ul class="list_top">
 					<li class="list_tops">
-					 	<img src="../images/logo_06.png" alt="">
+					 	<img src="../images/g-logo_06.png" alt="">
 					 	<div class="list_top_content">
 					 		<p class="test_two">任务名二</p>
 					 		<span>2017年11月</span>
@@ -142,14 +142,44 @@
 					 		</ul>
 					 		<p class="test_money">1839.00<i></i> </p>
 					 		<p class="test_moneys">疯涨中的奖池金额</p>
-					 		<!-- <a href="#">开始</a> -->
+					 		<a href="#">开始</a>
 					 	</div>	
 					</li>
 					<li class="list_bottoms"><a href="#">查看任务详情</a></li>
 				</ul>				
 			</li>
-		</ul>	
+		</ul>
 	</section>
-
 </body>
 </html>
+<script>
+	$(document).ready(function() {
+		$('.test_states_cont').on('click',function(){
+			console.log(1)
+			$(this).css('color','#9b96fd');
+			$(".line_left_g").css('opacity','1');
+			$("test_states_end").css('color','#999999');
+			$(".line_right_g").css('opacity','0');			
+		})
+		$('.test_states_end').on('click',function(){
+			$(this).css('color','#9b96fd');
+			$(".line_right_g").css('opacity','1');
+			$("test_states_cont").css('color','#999999');
+			$(".line_left_g").css('opacity','0');			
+		})		
+		// var  http_severs="http://ngrok-007.queen520.cn";
+		// $.ajax({
+		// 	type: 'get',
+		// 	url: http_severs+"/shop/api/users/userInfo/for/task/index",
+		// 	success: function(data) {
+		// 		console.log(data)
+		// 	},
+		// 	error: function(data) {
+		// 		errCallback(data);
+		// 	}
+		// });
+	})
+</script>
+
+
+

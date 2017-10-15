@@ -164,7 +164,7 @@ body {
   float: right;
   margin-top: 1.32592rem;
   margin-right: 1.026518rem;
-  background: url(../images/icon_02.png) no-repeat center center;
+  background: url(../images/g-icon_02.png) no-repeat center center;
   background-size: cover;
 }
 .task_earnings .task_earning .income_classify .blocking_box:hover,
@@ -190,7 +190,7 @@ body {
 .contribute_box .current_position {
   width: 5.560308rem;
   height: 1.924722rem;
-  background: url(../images/icon_04.png) no-repeat center center;
+  background: url(../images/g-icon_04.png) no-repeat center center;
   background-size: contain;
   position: absolute;
   left: 11.120616rem;
@@ -256,7 +256,7 @@ body {
 .contribute_box .progress_top ul .circles {
   width: 1.283148rem;
   height: 1.283148rem;
-  background: url(../images/icon_03.png) no-repeat center center;
+  background: url(../images/g-icon_03.png) no-repeat center center;
   background-size: cover;
 }
 .contribute_box .progress_top ul .zero_circles {
@@ -291,7 +291,7 @@ body {
 .bonus_pool_box .bonus_pool {
   width: 100%;
   height: 100%;
-  background: url(../images/back_05.png) no-repeat center center;
+  background: url(../images/g-back_05.png) no-repeat center center;
   background-size: cover;
   overflow: hidden;
 }
@@ -328,34 +328,33 @@ body {
   width: 100%;
   height: 3.763901rem;
   background: #ffffff;
-}
-.test_states ul {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-around;
 }
-.test_states ul li {
+.test_states .test_states_cont,
+.test_states .test_states_end {
   width: 100%;
   height: 100%;
 }
-.test_states ul li p {
+.test_states .test_states_cont p,
+.test_states .test_states_end p {
   text-align: center;
   line-height: 3.763901rem;
   font-family: ﻿font_family02;
   font-size: 1.283148rem;
 }
-.test_states ul li .line_active {
+.test_states .test_states_cont .line_active_g,
+.test_states .test_states_end .line_active_g {
   width: 5.988024rem;
   height: 0.25663rem;
-  margin-left: 4.918734rem;
-  margin-bottom: 0;
+  margin: 0 auto;
+  margin-top: -1rem;
   background: #9b96fd;
 }
-.test_states ul li:nth-child(1) {
+.test_states div:nth-child(1) {
   color: #9b96fd;
 }
-.test_states ul li:nth-child(2) {
+.test_states div:nth-child(2) {
   color: #999999;
 }
 /*  任务状态列表  */
@@ -457,7 +456,7 @@ body {
   position: absolute;
   left: 6.629598rem;
   top: 0.427716rem;
-  background: url(../images/icon_07.png) no-repeat center center;
+  background: url(../images/g-icon_07.png) no-repeat center center;
   background-size: cover;
 }
 .test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_moneys {
@@ -533,4 +532,7 @@ body {
 #count_down li:nth-child(5) {
   background-color: #edeff3;
   border-radius: 0.427716rem 0.427716rem 0.427716rem 0.427716rem;
+}
+.line_active_l {
+  display: none;
 }
