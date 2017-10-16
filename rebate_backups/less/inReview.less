@@ -1,0 +1,98 @@
+/* 公共头开始  */
+@charset "utf-8";
+@bodycolor:#f6f8fc;
+@font_size:16px;
+@font_family01:'SourceHanSansCN-Normal';
+@font_family02:'SourceHanSansCN-Regular';
+@font_family03:'SourceHanSansCN-Bold';
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+input:focus,select:focus{
+  outline:none;
+}
+header{
+  width: 100%;
+  height: 1.25rem;
+  overflow: hidden;
+  background-color: #ffffff;
+  h5{
+    font-family: ﻿font_family01;
+    font-size: 0.32rem;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-top: 0.62rem;
+    text-align: center;
+  }
+}
+body{
+  background-color: @bodycolor;
+}
+/*公共头结束*/
+
+.inReview_box{
+  width: 100%;
+  padding: 1.5504rem 0;
+  background: #fff;
+  text-align: center;
+  margin-bottom: 1.7227rem;
+  .title{
+    display: inline-block;
+    margin-bottom: 1rem;
+    img{
+      float: left;
+      width: 2.2149rem;
+      height: 2.2149rem;
+      display: block;
+      margin-right: 1rem;
+    }
+    span{
+      line-height:2.2149rem;
+      float: left;
+
+    }
+    font-size: 1.5rem;
+    color: #333;
+  }
+  .money{
+    color: #9b96fd;
+    font-size: 2.6579rem;
+    margin-bottom: 1rem;
+  }
+  .time{
+    color: #999;
+    font-size: 1rem;
+  }
+  .review{
+    color:#333;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+}
+button{
+  width: 17.2269rem;
+  height: 3.3593rem;
+  border: 0;
+  background-color: rgba(155, 150, 253, 1);
+  box-shadow: 0px 4px 16px 0px
+  rgba(155, 150, 253, 0.35);
+  border-radius: 39px 39px 39px 39px;
+  color: #fff;
+  font-size: 1.4643rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}

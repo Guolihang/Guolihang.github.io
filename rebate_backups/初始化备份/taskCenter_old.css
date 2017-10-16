@@ -37,7 +37,7 @@ body {
 /* 文字轮播通知消息 */
 .informs_box {
   width: 100%;
-  height: 0.72rem;
+  height: 2.25rem;
   background-color: #f8edc7;
 }
 .informs_box .informs {

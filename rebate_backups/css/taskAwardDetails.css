@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* 公共头开始  */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+header {
+  width: 100%;
+  height: 1.25rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+header h5 {
+  font-family: ﻿font_family01;
+  font-size: 0.32rem;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 0.62rem;
+  text-align: center;
+}
+body {
+  background-color: #f6f8fc;
+}
+/*公共头结束*/
+/*  累计任务奖励相关信息  */
+.cumulative_rewards {
+  width: 100%;
+  height: 10.8864rem;
+  background-image: linear-gradient(0deg, #c1d7ff 0%, #82adfa 100%);
+}
+.cumulative_rewards .cumulative_reward {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #ffffff;
+}
+.cumulative_rewards .cumulative_reward .earning_num {
+  width: 100%;
+  font-family: ﻿font_family03;
+  font-size: 2.566296rem;
+  letter-spacing: 0px;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  top: 1.961839rem;
+  color: #ffffff;
+}
+.cumulative_rewards .cumulative_reward p {
+  height: 1.368691rem;
+  width: 100%;
+  font-family: ﻿font_family02;
+  font-size: 1.172148rem;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 4.94078rem;
+  color: #ffffff;
+}
+.cumulative_rewards .cumulative_reward .search_box {
+  position: absolute;
+  top: 7.6205rem;
+  width: 100%;
+  height: 2.4285rem;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cumulative_rewards .cumulative_reward .search_box .search_time {
+  width: 32%;
+  height: 100%;
+  background: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+.cumulative_rewards .cumulative_reward .search_box .search_time select {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.cumulative_rewards .cumulative_reward .search_box .search_content {
+  width: 64%;
+  height: 100%;
+  background: #fff;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem;
+  overflow: hidden;
+  display: flex;
+}
+.cumulative_rewards .cumulative_reward .search_box .search_content img {
+  width: 1.4285rem;
+  height: 1.4285rem;
+  margin-right: 0.75rem;
+}
+.cumulative_rewards .cumulative_reward .search_box .search_content input[type="search"] {
+  flex-grow: 1;
+  height: 100%;
+  border: 0;
+}
+.monthly_bonus_lists {
+  width: 100%;
+}
+.monthly_bonus_lists .monthly_bonus_list_header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.01471rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.monthly_bonus_lists .monthly_bonus_list_header span {
+  color: #666666;
+}
+.monthly_bonus_lists .monthly_bonus_list {
+  width: 100%;
+  height: 5.0245rem;
+}
+.monthly_bonus_lists .monthly_bonus_list a {
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  font-size: 1.2561rem;
+  width: 100%;
+  height: 100%;
+  color: #666;
+}
+.monthly_bonus_lists .monthly_bonus_list a .money_bonus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.monthly_bonus_lists .monthly_bonus_list a .money_bonus span {
+  margin-right: 1rem;
+}
+.monthly_bonus_lists .monthly_bonus_list a .money_bonus img {
+  width: 0.66993rem;
+  height: 1.08864rem;
+}

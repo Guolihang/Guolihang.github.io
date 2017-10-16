@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>任务详情页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/taskdetails.css"/>
+    <script src="../js/zepto.min.js"></script>
+    <!-- <script src="../js/rem_new.js"></script> -->
+    <style>
+        html {
+            font-size: 12px
+        }
+
+        @media screen and (min-width:320px) and (max-width:376px) {
+            html {
+                font-size: 11px
+            }
+        }
+        @media screen and (min-width:376px) and (max-width:414px) {
+            html {
+                font-size: 12px
+            }
+        }
+
+        @media screen and (min-width:415px) and (max-width:639px) {
+            html {
+                font-size: 15px
+            }
+        }
+        @media screen and (min-width:640px) and (max-width:719px) {
+            html {
+                font-size: 20px
+            }
+        }
+        @media screen and (min-width:720px) and (max-width:749px) {
+            html {
+                font-size: 22.5px
+            }
+        }
+        @media screen and (min-width:750px) and (max-width:799px) {
+            html {
+                font-size: 23.5px
+            }
+        }
+        @media screen and (min-width:800px) {
+            html {
+                font-size: 25px
+            }
+        } 
+    </style>
+</head>
+<body>
+<!-- 公共头部分 -->
+<!--<header id="header" class="Task_Header">-->
+<!--&lt;!&ndash; <img src="../images/header.png" alt=""> &ndash;&gt;-->
+<!--<h5>任务中心</h5>							-->
+<!--</header>-->
+
+<!-- 任务详情及倒计时 -->
+<section class="task_01_box_g">
+        <ul class="task_01_g">
+            <li class="task_top_g">
+                    <div class="task_top_left_g">
+                        <p class="task_A_g">任务名A</p>
+                        <span class="task_date_g">2017年11月</span>
+                    </div>
+                    <div class="task_top_right_g">
+                        <p id="task_progress_g">正在进行</p>
+                        <span id="task_downs_g">距结束</span>
+                        <ul id="count_down_g">
+                            <li>00</li>
+                            <li>：</li>
+                            <li>00</li>
+                            <li>：</li>
+                            <li>00</li>
+                        </ul>
+                    </div>
+            </li>
+            <li class="task_bottom_g">
+                <a href="#" class="join_p_g"><img src="../images/g-icon_12.png" alt=""><p>参与人数</p><p>900</p></a>
+                <a href="#" class="maoney_p_g"><img src="../images/g-icon_11.png" alt=""><p>可分润人</p><p>300</p></a>
+                <a href="#" class="maoney_p_g" style="opacity: 0"><img src="../images/g-icon_11.png" alt=""></a>
+            </li>
+        </ul>
+</section>
+<!-- 贡献分 任务目标等 -->
+<section class="detail_lists_box_g">
+    <ul class="detail_lists_g">
+        <li class="contribute_point_g">
+            <p>贡献分目标</p>
+            <p>13122</p>            
+        </li>       
+        <li class="task_aim_g">
+            <div>任务目标</div>
+            <ul>
+                <li>当月累计贡献分达标（700/1000元）</li>
+                <li>制造更多的星星人类的小伙伴</li>
+            </ul>           
+        </li>        
+        <li class="task_rule_g">
+            <div>任务规则</div>
+            <p>激情一周，星星人类社群微商发展迅速，让我们共同向十月致敬，充满热情的你一定可以奉献自己的力量！本月最高可获得¥400.00。</p>                     
+        </li>        
+        <li class="contribute_point_self">
+            <div class="contribute_point_self_left_g">我的贡献分</div>
+            <div class="contribute_point_self_right_g">
+                <div class="Progress_Bar_bottom_g"></div>
+                <div class="Progress_Bar_top_g"></div>
+                <p class="scale_value_g"><span>1100</span>/2000</p>
+                <p class="contribute_point_self_tip_g">差100分解锁“奖池1”，去补单拿更高奖励！</p>
+                <a href="#" class="add_up_detail_g">累计明细</a>
+                <a href="#" class="replenishment_button_g">补单</a>        
+            </div>                      
+        </li>
+        <li class="bonus_pond_earnings_g">
+            <div class="bonus_pond_earnings01_g">奖金池收益</div>
+            <ul class="bonus_pond_earnings02_g">
+                <li class="bonus_pond_earnings03_g"><p>￥1800<span></span><span></span></p></li>
+                <li class="bonus_pond_earnings04_g">总奖金池的15%</li>
+                <li class="bonus_pond_earnings05_g"><img src="../images/g-icon_09.png" alt=""></li>
+            </ul>
+            <img src="../images/g-icon_10.png" alt="" class="earnings_arrows_g02">
+            <ul class="self_earnings01_g">
+                <li class="self_earnings02_g">￥0</li>
+                <li class="self_earnings03_g">我的奖励收益</li>
+                <li class="self_earnings04_g"><a href="">可领取</a></li>
+            </ul>          
+        </li>                
+    </ul>
+    <div class="over_line_g"></div>
+</section>
+
+
+
+
+</body>
+</html>
+<script>
+    $(document).ready(function() {
+        // var  http_severs="http://ngrok-007.queen520.cn";
+        // $.ajax({
+        // 	type: 'get',
+        // 	url: http_severs+"/shop/api/users/userInfo/for/task/index",
+        // 	success: function(data) {
+        // 		console.log(data)
+        // 	},
+        // 	error: function(data) {
+        // 		errCallback(data);
+        // 	}
+        // });
+    })
+</script>
+
+
+
