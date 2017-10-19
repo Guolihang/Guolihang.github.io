@@ -1,0 +1,79 @@
+
+			.wei_tigao1{
+				height: auto;
+			}
+			.wei_tigao1>li{
+				/*width: 749px;*/
+				height: 5.6984rem;
+				background-color: rgba(255, 255, 255, 1);
+				padding: 1.257rem 1.0894rem 0 1.0056rem;
+				border: 0.01rem solid #E6E6E6;
+				border-left:none;
+				border-right:none;
+				border-bottom: none;
+			}
+			.wei_tigao1>li>p:nth-child(1){
+				height:1.3827rem ;
+				
+			}
+			.wei_tigao1>li>p:nth-child(1)>span:nth-child(1){
+				/*height:0.33rem ;*/
+				/*width: 322px;*/
+				height: 1.3827rem;
+				font-family: ﻿SourceHanSansCN-Regular;
+				font-size: 1.4246rem;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height:0.33rem;
+				letter-spacing: 0px;
+				color: #333333;
+				
+			}.wei_tigao1>li>p:nth-child(1)>span:nth-child(2){
+				/*height:0.33rem ;*/
+				/*width: 322px;*/
+				/*width: 108px;*/
+				height: 1.2151rem;
+				font-family: ﻿SourceHanSansCN-Regular;
+				font-size: 1.5084rem;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.2151rem;
+				letter-spacing: 0px;
+				color: #9b96fd;
+				float: right;
+				
+			}
+			.wei_tigao1>li>p:nth-child(2){
+				height:1.3827rem ;
+				margin-top: 0.838rem;
+				
+			}
+			.wei_tigao1>li>p:nth-child(2)>span:nth-child(1){
+					/*width: 190px;*/
+					height: 1.0056rem;
+					font-family: ﻿SourceHanSansCN-Regular;
+					font-size: 1.0056rem;
+					font-weight: normal;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 1.0056rem;
+					letter-spacing: 0px;
+					color: #999999;
+				
+			}.wei_tigao1>li>p:nth-child(2)>span:nth-child(2){
+					/*width: 87px;*/
+					height: 1.1732px;
+					font-family: ﻿SourceHanSansCN-Regular;
+					font-size: 1.257rem;
+					font-weight: normal;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 1.1732rem;
+					letter-spacing: 0px;
+					color: #333333;
+					float: right;
+				
+			}
+			

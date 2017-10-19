@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* 公共头开始  */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  height: 1.25rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+header h5 {
+  font-family: ﻿font_family01;
+  font-size: 0.32rem;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 0.62rem;
+  text-align: center;
+}
+body {
+  background-color: #f6f8fc;
+}
+/*公共头结束*/
+/*  奖励金额相关信息  */
+.reward_amounts {
+  width: 100%;
+  height: 9.21164rem;
+  background-image: linear-gradient(0deg, #c1d7ff 0%, #82adfa 100%);
+}
+.reward_amounts .reward_amount {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #ffffff;
+}
+.reward_amounts .reward_amount .earning_num {
+  width: 100%;
+  font-family: ﻿font_family03;
+  font-size: 2.566296rem;
+  letter-spacing: 0px;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  top: 2.451839rem;
+}
+.reward_amounts .reward_amount p {
+  height: 1.368691rem;
+  width: 100%;
+  font-family: ﻿font_family02;
+  font-size: 1.283148rem;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 5.674765rem;
+}
+.prize_pool_lists {
+  width: 100%;
+}
+.prize_pool_lists .prize_pool_list_header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.01471rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prize_pool_lists .prize_pool_list_header span {
+  color: #666666;
+}
+.prize_pool_lists .prize_pool_list {
+  box-sizing: border-box;
+  width: 100%;
+  height: 5.0245rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  font-size: 1.2561rem;
+}
+.prize_pool_lists .prize_pool_list span {
+  width: 6rem;
+}
+.prize_pool_lists .prize_pool_list div {
+  width: 6rem;
+}
+.prize_pool_lists .prize_pool_list .money {
+  color: #857ffd;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prize_pool_lists .prize_pool_list .money .statistics {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.prize_pool_lists .prize_pool_list .money #count_down li {
+  width: 1.197605rem;
+  height: 1.197605rem;
+  float: left;
+  font-size: 0.855432rem;
+  color: #333333;
+  text-align: center;
+  line-height: 1.197605rem;
+}
+.prize_pool_lists .prize_pool_list .money #count_down li:nth-child(1),
+.prize_pool_lists .prize_pool_list .money #count_down li:nth-child(3),
+.prize_pool_lists .prize_pool_list .money #count_down li:nth-child(5) {
+  background-color: #edeff3;
+  border-radius: 0.427716rem 0.427716rem 0.427716rem 0.427716rem;
+}
+.prize_pool_lists .prize_pool_list .reward_status {
+  text-align: right;
+}
+.prize_pool_lists .prize_pool_list .reward_status .active {
+  color: #999999;
+}
+.prize_pool_lists .prize_pool_list .reward_status .inactive {
+  color: #333333;
+}
+.prize_pool_lists .prize_pool_list .reward_status .but button {
+  border: 0;
+  width: 100%;
+  height: 2.1772rem;
+  border: 1px solid #9b96fd;
+  background: #fff;
+  border-radius: 26px 26px 26px 26px;
+  font-size: 1rem;
+  color: #9b96fd;
+}

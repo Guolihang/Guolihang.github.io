@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* 公共头开始  */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+header {
+  width: 100%;
+  height: 1.25rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+header h5 {
+  font-family: ﻿font_family01;
+  font-size: 0.32rem;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 0.62rem;
+  text-align: center;
+}
+body {
+  background-color: #f6f8fc;
+}
+/*公共头结束*/
+.account_style {
+  width: 100%;
+  height: 3.567rem;
+  background: #fff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  font-size: 1.23rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.account_style .right {
+  display: flex;
+  align-items: center;
+}
+.account_style .right span {
+  font-size: 1.148rem;
+  margin-right: 1rem;
+}
+.account_style .right img {
+  width: 0.6699rem;
+  height: 1.0886rem;
+  display: block;
+}
+.account_lists {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  background: #fff;
+  margin-bottom: 1.7227rem;
+}
+.account_lists li {
+  width: 100%;
+  height: 3.567rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.account_lists li span {
+  font-size: 1.23rem;
+  color: #333;
+  margin-right: 3rem;
+}
+.account_lists li input {
+  border: 0;
+  color: #666;
+  font-size: 1.148rem;
+  flex-grow: 1;
+}
+button {
+  width: 17.2269rem;
+  height: 3.3593rem;
+  border: 0;
+  background-color: #9b96fd;
+  box-shadow: 0px 4px 16px 0px rgba(155, 150, 253, 0.35);
+  border-radius: 39px 39px 39px 39px;
+  color: #fff;
+  font-size: 1.4643rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}

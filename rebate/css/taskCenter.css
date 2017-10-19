@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
@@ -48,23 +49,27 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .informs_box .informs .inform img {
   width: 1.625321rem;
   height: 1.368691rem;
   float: left;
-  display: inline-block;
+  display: block;
   margin: 0.898204rem 0 0 1rem;
 }
-.informs_box .informs .inform p {
+.informs_box .informs .inform .tip_G_text {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
   font-family: ﻿font_family02;
-  font-size: 1.026518rem;
-  line-height: 3.079555rem;
-  letter-spacing: 0px;
-  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 300%;
+  display: block;
   color: #857ffd;
   float: right;
+  margin-left: 0.2rem;
+  white-space: nowrap;
 }
 /*  任务收益相关信息  */
 .task_earnings {
@@ -84,6 +89,7 @@ body {
   font-family: ﻿font_family03;
   font-size: 2.566296rem;
   letter-spacing: 0px;
+  color: #ffffff;
   position: absolute;
   left: 1.4rem;
   top: 2.651839rem;
@@ -93,6 +99,7 @@ body {
   font-family: ﻿font_family02;
   font-size: 1.283148rem;
   letter-spacing: 0px;
+  color: #ffffff;
   position: absolute;
   left: 1.4rem;
   top: 5.474765rem;
@@ -179,14 +186,14 @@ body {
   height: 7.527802rem;
   background-color: #ffffff;
   position: relative;
+  padding: 0 1rem;
+  overflow: hidden;
 }
 .contribute_box .contribute_points {
   display: block;
   font-family: ﻿﻿font_family02;
   font-size: 1.283148rem;
   line-height: 7.527802rem;
-  margin-left: 1.06929rem;
-  letter-spacing: 0px;
   color: #333333;
 }
 .contribute_box .current_position {
@@ -202,6 +209,22 @@ body {
   font-family: ﻿font_family02;
   font-size: 1.026518rem;
   color: #ffffff;
+}
+.contribute_box .contribute_link_g {
+  width: 2rem;
+  height: 2rem;
+  background: url(../images/g-icon_02.png) no-repeat center center;
+  padding: 0 1rem;
+  background-size: contain;
+  position: absolute;
+  right: 1rem;
+  top: 2.8rem;
+}
+@media screen and (width: 320px) {
+  .contribute_box .progress_bottom,
+  .contribute_box .progress_top {
+    transform: translate(-14px);
+  }
 }
 .contribute_box .progress_bottom,
 .contribute_box .progress_top {
@@ -269,6 +292,11 @@ body {
   left: -1.539778rem;
   top: 0.213858rem;
   background-color: #fe3824;
+}
+@media screen and (width: 320px) {
+  .contribute_box .contribute_num {
+    transform: translate(-1.8rem);
+  }
 }
 .contribute_box .contribute_num {
   width: 23.310522rem;
@@ -363,13 +391,19 @@ body {
 .test_lists_box {
   width: 100%;
   height: 29.94012rem;
+  padding: 0 1rem;
 }
 .test_lists_box .test_lists {
   width: 100%;
   height: 100%;
 }
+@media screen and (width: 320px) {
+  .test_lists_box .test_lists .contribute_num {
+    width: 28rem;
+  }
+}
 .test_lists_box .test_lists .list {
-  width: 30.025663rem;
+  width: 100%;
   height: 13.344739rem;
   margin: 1.026518rem auto;
   background-color: #ffffff;
@@ -386,16 +420,36 @@ body {
   height: 100%;
 }
 .test_lists_box .test_lists .list .list_top .list_tops img {
-  width: 6.928999rem;
+  width: 25%;
   height: 9.580838rem;
   display: block;
   float: left;
 }
 .test_lists_box .test_lists .list .list_top .list_tops .list_top_content {
-  width: 23.096664rem;
+  width: 75%;
   height: 9.580838rem;
   float: right;
   position: relative;
+}
+
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .unfinish_image_g_02 {
+  width:6.8rem;
+  height: 5rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 0rem;
+  background: url(../images/g_icon_14.png) no-repeat center center;
+  background-size: cover;
+}
+
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .finished_image_g {
+  width:6.8rem;
+  height: 5rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 0rem;
+  background: url(../images/g_icon_13.png) no-repeat center center;
+  background-size: cover;
 }
 .test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_two {
   position: absolute;
@@ -406,7 +460,16 @@ body {
   color: #333333;
   font-weight: bold;
 }
-.test_lists_box .test_lists .list .list_top .list_tops .list_top_content span {
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_two_g_02 {
+  position: absolute;
+  left: 1.06929rem;
+  top: 1.283148rem;
+  font-family: ﻿﻿font_family03;
+  font-size: 1.454234rem;
+  color: #999999;
+  font-weight: bold;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .time_unfinash_g_01, .time_unfinash_g_02 {
   display: block;
   position: absolute;
   left: 1.06929rem;
@@ -451,7 +514,25 @@ body {
   left: 1.06929rem;
   top: 5.988024rem;
 }
-.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_money i {
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_money_02 {
+  width: 5.260907rem;
+  height: 1.112062rem;
+  font-size: 1.454234rem;
+  color: #999999;
+  position: absolute;
+  left: 1.06929rem;
+  top: 5.988024rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_money_02_g {
+  width: 10rem;
+  height: 1.112062rem;
+  font-size: 1.2rem;
+  color: #fe3824;
+  position: absolute;
+  left: 1.06929rem;
+  top: 5.988024rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_money .icon_zhang_g_01 {
   width: 0.641574rem;
   height: 1.026518rem;
   display: block;
@@ -461,12 +542,32 @@ body {
   background: url(../images/g-icon_07.png) no-repeat center center;
   background-size: cover;
 }
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_money_02 .icon_zhang_g_02 {
+  width: 0.641574rem;
+  height: 1.026518rem;
+  display: block;
+  position: absolute;
+  left: 6.629598rem;
+  top: 0.427716rem;
+  background: url(../images/g-icon-15.png) no-repeat center center;
+  background-size: cover;
+}
 .test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_moneys {
   width: 10.6929rem;
   height: 1.026518rem;
   font-size: 1.026518rem;
   font-weight: 500;
   color: #666666;
+  position: absolute;
+  left: 1.06929rem;
+  top: 7.48503rem;
+}
+.test_lists_box .test_lists .list .list_top .list_tops .list_top_content .test_moneys_02 {
+  width: 10.6929rem;
+  height: 1.026518rem;
+  font-size: 1.026518rem;
+  font-weight: 500;
+  color: #999999;
   position: absolute;
   left: 1.06929rem;
   top: 7.48503rem;

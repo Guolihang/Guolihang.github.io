@@ -55,7 +55,6 @@
 		font-size: 25px
 	}
 }
-
 </style>
 <body>
 	<!-- 公共头部分 -->
@@ -68,7 +67,7 @@
 		<ul class="informs">
 			<li class="inform">
            		<img src="../images/g-icon_01.png">
-				<p>您的【任务一】完成，解锁4号奖金池，还有￥3000奖金可领。</p>
+				<p class="tip_G_text">您的【任务一】完成，解锁4号奖金池，还有￥3000奖金可领。</p>
 			</li>
 		</ul>
 	</section>
@@ -92,6 +91,7 @@
 	<section class="contribute_box">
 		<span class="contribute_points">贡献分</span>
 		<div class=" current_position">当前2008</div>
+		<a href="" class="contribute_link_g"></a>
 		<div class="progress_bottom">
 			<ul>
 				<li class="zero_circle circle"></li>
@@ -146,19 +146,19 @@
 	</nav>
 	<!-- 任务状态列表 -->
 	<section class="test_lists_box">
-		<ul class="test_lists">
+		<ul class="test_lists test_lists_click_01">
 			<li class="lists_01 list">
 				<ul class="list_top">
 					<li class="list_tops">
 					 	<img src="../images/g-logo_06.png" alt="">
 					 	<div class="list_top_content">
 					 		<p class="test_two">任务名二</p>
-					 		<span>2017年11月</span>
+					 		<span class="time_unfinash_g_01">2017年11月</span>
 					 		<div class="finish_progress">
 					 			<div>进度</div>
 					 			<span class="accomplish_num"><b>0</b>/1</span>
 					 		</div>
-					 		<p class="test_money">1839.00<i></i> </p>
+					 		<p class="test_money">1839.00<i class="icon_zhang_g_01"></i> </p>
 					 		<p class="test_moneys">疯涨中的奖池金额</p>
 					 		<a href="#">开始</a>
 					 	</div>	
@@ -172,7 +172,7 @@
 					 	<img src="../images/g-logo_06.png" alt="">
 					 	<div class="list_top_content">
 					 		<p class="test_two">任务名二</p>
-					 		<span>2017年11月</span>
+					 		<span class="time_unfinash_g_01">2017年11月</span>
 					 		<div class="finish_progress">
 					 			<div id="in_progress">正在进行</div>
 					 		</div>
@@ -195,6 +195,40 @@
 				</ul>				
 			</li>
 		</ul>
+	<!-- 点击 已结束 按钮 -->
+		<ul class="test_lists test_lists_click_02" style="display: none;">
+			<li class="lists_01 list">
+				<ul class="list_top">
+					<li class="list_tops">
+					 	<img src="../images/g-logo_06.png" alt="">
+					 	<div class="list_top_content">
+					 		<p class="test_two_g_02">任务名一</p>
+					 		<span class="time_unfinash_g_02">2017年11月</span>
+					 		<div class="unfinish_image_g_02"></div>
+					 		<p class="test_money_02">1839.00<i class="icon_zhang_g_02"></i> </p>
+					 		<p class="test_moneys_02">疯涨中的奖池金额</p>
+					 	</div>	
+					</li>
+					<li class="list_bottoms"><a href="#">查看任务详情</a></li>
+				</ul>
+			</li>
+			<li class="lists_01 list">
+				<ul class="list_top">
+					<li class="list_tops">
+					 	<img src="../images/g-logo_06.png" alt="">
+					 	<div class="list_top_content">
+					 		<p class="test_two">任务名二</p>
+					 		<span class="time_unfinash_g_01">2017年11月</span>
+					 		<div class="finished_image_g"></div>
+					 		<p class="test_money_02_g">可领取￥2000奖励</p>
+					 		<a href="#">领取</a>
+					 	</div>	
+					</li>
+					<li class="list_bottoms"><a href="#">查看任务详情</a></li>
+				</ul>				
+			</li>
+		</ul>	
+
 	</section>
 </body>
 </html>
@@ -203,12 +237,16 @@
 		$('.test_states_cont').on('click',function(){
 			console.log(1)
 			$(this).css('color','#9b96fd');
+			$('.test_lists_click_02').css('display','none');
+			$('.test_lists_click_01').css('display','block');
 			$(".line_left_g").css('opacity','1');
 			$("test_states_end").css('color','#999999');
 			$(".line_right_g").css('opacity','0');			
 		})
 		$('.test_states_end').on('click',function(){
 			$(this).css('color','#9b96fd');
+			$('.test_lists_click_01').css('display','none');
+			$('.test_lists_click_02').css('display','block');
 			$(".line_right_g").css('opacity','1');
 			$("test_states_cont").css('color','#999999');
 			$(".line_left_g").css('opacity','0');			
