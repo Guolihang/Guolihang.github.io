@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* 公共头开始  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+html {
+	font-size: 12px
+}
+@media screen and  (max-width:320px) {
+	html {
+		font-size: 10px
+	}
+}
+@media screen and (min-width:321px) and (max-width:376px) {
+	html {
+		font-size: 11px
+	}
+}
+
+@media screen and (min-width:376px) and (max-width:414px) {
+	html {
+		font-size: 12px
+	}
+}
+
+@media screen and (min-width:415px) and (max-width:639px) {
+	html {
+		font-size: 15px
+	}
+}
+@media screen and (min-width:640px) and (max-width:719px) {
+	html {
+		font-size: 20px
+	}
+}
+
+@media screen and (min-width:720px) and (max-width:749px) {
+	html {
+		font-size: 22.5px
+	}
+}
+
+@media screen and (min-width:750px) and (max-width:799px) {
+	html {
+		font-size: 23.5px
+	}
+}
+
+@media screen and (min-width:800px) {
+	html {
+		font-size: 25px
+	}
+}
+ .swiper-container {
+        width: 100%;
+        height: 14rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .swiper-slide {
+        text-align: center;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    
+.title_self_task_g{
+	width: 100%;
+	height: 4.3rem;
+	border-bottom: 1px solid #e5e5e5;
+	text-align: center;
+	line-height: 4.3rem;
+	font-size: 1.283148rem;
+	color:#333333;
+}
+.self_tesk_earnings_g{
+	width: 100%;
+	height: 4.27716rem;
+	padding: 1rem;
+}
+.self_tesk_earnings_g .tesk_earning_gs{
+	width: 100%;
+	height: 100%;
+}
+.self_tesk_earnings_g  .tesk_earning_gs  .tesk_earning_gs01{
+	display: inline-block;
+	width: 0.342173rem;
+	height: 1.539778rem;
+	margin-top: 0.6rem;
+	float: left;
+	background-color: rgba(155, 150, 253, 1);
+	border-radius: 4px 4px 4px 4px;
+}
+.self_tesk_earnings_g .tesk_earning_gs  .tesk_earning_gs02{
+	display: inline-block;
+	text-align: center;
+	font-size:1.283148rem;
+	color: #333333;
+	margin-left: 0.7rem;
+	margin-top: 0.5rem;
+	float: left;
+}
+.self_tesk_earnings_g .tesk_earning_gs  .tesk_earning_gs03{
+	display: inline-block;
+	float: left;
+	font-size: 1.88195rem;
+	font-weight: 600;
+	color:#9b96fd;
+	margin-left: 0.7rem;
+}
+.bonusPool_g-01{
+	width: 100%;
+	height: 100%;
+}
+/* 滑动盒子背景 */
+.bonusPool_g-01 .bonusPool_g-02{
+	display: block;
+	width: 100%;
+	height: 55%;
+	padding: 0.855432rem 0 0 0.855432rem;
+	background-image: linear-gradient(0deg, 
+		rgba(170, 199, 252, 1) 0%, 
+		rgba(129, 197, 254, 1) 100%);
+	box-shadow: 0px 0.171086rem 0.427716rem 0px 
+		rgba(0, 138, 255, 0.3);
+	border-radius: 0.427716rem 0.427716rem 0.427716rem 0.427716rem;
+}
+  #generalizeMoney_g-01{
+	background-image: linear-gradient(0deg, 
+		rgba(254, 192, 241, 1) 0%, 
+		rgba(254, 181, 239, 1) 23%, 
+		rgba(255, 170, 237, 1) 47%, 
+		rgba(255, 145, 232, 1) 100%);
+	box-shadow: 0px 0.171086rem 0.427716rem 0px 
+		rgba(255, 145, 232, 0.3);	
+}
+/*待开启*/
+  #waitOpen_g_01{
+	background-image: linear-gradient(0deg, 
+		rgba(201, 190, 255, 1) 0%, 
+		rgba(193, 180, 253, 1) 53%, 
+		rgba(189, 176, 251, 1) 77%, 
+		rgba(185, 172, 250, 1) 100%);
+	box-shadow: 0px 0.171086rem 0.427716rem 0px 
+		rgba(186, 173, 255, 0.3);
+  }
+
+ .bonusPool_g-01 .bonusPool_g-02 .bonusPool_g-03{
+ 	display: block;
+ 	width: 3.079555rem;
+ 	height: 3.079555rem;
+ 	float: left;
+ }
+.bonusPool_g-01 .bonusPool_g-02 .bonusPool_g-04{
+	width: 65%;
+	float: left;
+	margin-left: 1rem;
+}
+.bonusPool_g-01 .bonusPool_g-02 .bonusPool_g-04 p:nth-child(1){
+	font-size: 1.112062rem;
+	text-align: left;
+	color: #ffffff;
+}
+.bonusPool_g-01 .bonusPool_g-02 .bonusPool_g-04 p:nth-child(1) span{
+	font-size: 1.197605rem;
+	color: #ffffff;
+}
+.bonusPool_g-01 .bonusPool_g-02 .bonusPool_g-04 p:nth-child(2){
+	border-bottom: 1px dashed #ffffff;
+	height: 2rem;
+	font-size: 1.112062rem;
+	text-align: left;
+	color: #ffffff;
+}
+.bonusPool_g-01 .bonusPool_g-02 .bonusPool_g-04 p:nth-child(3){
+	font-size: 0.727117rem;
+	color: #c1a55e;
+	width: 7rem;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	margin-top: 0.5rem;
+	background-color: rgba(255, 236, 186, 1);
+	border-radius: 0.25663rem 0.25663rem 0.25663rem 0.25663rem;
+}
+/*未开启*/
+
+#generalizeMoney_g-02{
+	width: 3.2rem;
+}
+.bonusPool_g-01 .bonusPool_g-05{
+	width: 100%;
+	height: 45%;
+	padding: 1rem;
+}
+.bonusPool_g-01 .bonusPool_g-05 p:nth-child(1){
+	font-size: 1.283148rem;
+	text-align: left;
+	color: #333333;
+}
+.bonusPool_g-01 .bonusPool_g-05 p:nth-child(2){
+	font-size: 1.026518rem;
+	text-align: left;
+	color: #999999;
+	margin-top: 0.641574rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
